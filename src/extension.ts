@@ -56,7 +56,7 @@ export function activate(context: ExtensionContext) {
 						return sel.end.line;
 					}));
 					commands.executeCommand("revealLine", {
-						lineNumber: bottomMostLine,
+						lineNumber: Math.min(0, bottomMostLine - 1),
 						at: "bottom"
 					});
 					nextPosition = PositionState.Center;
