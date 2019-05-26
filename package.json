@@ -3,7 +3,7 @@
 	"displayName": "Recenter Top Bottom",
 	"description": "Reposition current lines at center top bottom.",
 	"publisher": "yeannylam",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"engines": {
 		"vscode": "^1.34.0"
 	},
